@@ -1,0 +1,22 @@
+{
+    "name": "Summary Of History",
+    "description": "A edge extension that can summarize your brower's history",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action":{
+        "default_icon": "icon/icon.png"
+    },
+    "icons": {
+        "16": "icon/extension_icon16.png",
+        "32": "icon/extension_icon32.png",
+        "48": "icon/extension_icon48.png",
+        "128": "icon/extension_icon128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "notifications",
+        "history"
+    ]
+}
